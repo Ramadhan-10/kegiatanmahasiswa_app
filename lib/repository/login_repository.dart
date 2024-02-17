@@ -47,7 +47,7 @@ class LoginRepository extends Repository {
     return repoResponse;
   }
 
-  Future regist(
+  Future register(
       {required String username,
       required String password,
       required String name,
